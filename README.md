@@ -38,6 +38,17 @@ echo "платежи: []" > data/payments.yaml
 claude
 ```
 
+## Где работает
+
+| Платформа | Статус |
+|-----------|--------|
+| Claude Code CLI (`claude` в терминале) | ✅ |
+| Claude Code Desktop (Windows) | ✅ |
+| Claude Code Desktop (Mac) | ✅ |
+| Claude Code в VS Code | ✅ |
+| Claude Code в JetBrains | ✅ |
+| Claude.ai/code (веб) | ✅ |
+
 ## Команды и примеры
 
 ### Оптимизация налогового режима
@@ -345,19 +356,6 @@ claude
 ```
 
 Формирует построчные данные для заполнения декларации УСН в личном кабинете ФНС.
-
-## Где работает
-
-| Платформа | Статус |
-|-----------|--------|
-| Claude Code CLI (`claude` в терминале) | ✅ |
-| Claude Code Desktop (Windows) | ✅ |
-| Claude Code Desktop (Mac) | ✅ |
-| Claude Code в VS Code | ✅ |
-| Claude Code в JetBrains | ✅ |
-| Claude.ai/code (веб) | ✅ |
-
-Slash-команды `/ip-*` доступны во всех средах, где Claude Code читает `.claude/skills/`.
 
 ## Архитектура: AI Native
 
