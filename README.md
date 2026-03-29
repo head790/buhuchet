@@ -404,6 +404,15 @@ date,amount,type,description,client,document_number,category
 
 Контакт: **r.cion2020@gmail.com**
 
+## Поддержать проект
+
+| Сеть | Адрес |
+|------|-------|
+| BTC | `bc1qnmarchn6p2qcspqvn3rpuldp8haet9qf2mhhx3` |
+| ETH / USDT / USDC (ERC-20) | `0x2972940A208a230A7527d4ac0dc1Ba38Fc39f411` |
+| SOL | `EFimujxRGqJ9R888irqWLQU1eJobESmzX3ZEEtDi9dTW` |
+| TRX / USDT (TRC-20) | `TW131UFvCXJPjtgJQdGP4w5sWSRe7uLAKv` |
+
 ## Отказ от ответственности
 
 Это **не** сертифицированное бухгалтерское программное обеспечение. Проект автоматизирует рутинные расчёты и генерацию документов, но не заменяет профессиональную бухгалтерскую или налоговую консультацию. Ставки, лимиты и КБК актуальны на 2025-2026 годы — проверяйте актуальность на [сайте ФНС](https://www.nalog.gov.ru).
