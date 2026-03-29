@@ -257,30 +257,17 @@ Slash-команды `/ip-*` доступны во всех средах, где
 
 Этот проект построен по принципу **AI Native** — ИИ не надстройка над существующим ПО, а основа архитектуры. Здесь нет бэкенда, фронтенда, базы данных или сервера. Есть три слоя:
 
-```mermaid
-block-beta
-    columns 1
-    block:ai["Claude Code — мозг системы"]
-        columns 3
-        nalog["/ip-налог"]
-        schet["/ip-счёт"]
-        dedl["/ip-дедлайны"]
-    end
-    block:data["Source of Truth — данные"]
-        columns 3
-        profile["profile.yaml"]
-        journal["journal.csv"]
-        clients["clients.yaml"]
-    end
-    block:mcp["MCP — внешние системы"]
-        columns 3
-        bank["Банк"]
-        fns["ФНС"]
-        crm["CRM"]
-    end
-
-    ai --> data
-    data --> mcp
+```
+              CLAUDE CODE (AI)
+     /ip-nalog  /ip-schet  /ip-dedl.
+                   |
+                   v
+            SOURCE OF TRUTH
+     profile.yaml  journal.csv  clients.yaml
+                   |
+                   v
+          MCP SERVERS (optional)
+        Bank API     FNS     CRM
 ```
 
 ### Три принципа AI Native
